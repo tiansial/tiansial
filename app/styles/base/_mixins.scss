@@ -1,0 +1,9 @@
+// No-bullets
+
+@mixin no-bullets {
+    padding: 0;
+    list-style: none;
+    li:before {
+        display: none;
+    }
+}
